@@ -37,6 +37,6 @@ Client-side demo using a dedicated test mailbox.
 
 ## Acceptance criteria
 
-- 37+ deterministic tests pass (see repo test suite).
+- 50 deterministic assertions pass (see tests/test_skill.py).
 - Real read-only MCP run processed at least 3 explicitly approved demo messages.
 - No send/invite/wallet tool invoked during demo.
