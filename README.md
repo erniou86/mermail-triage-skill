@@ -22,7 +22,7 @@ skills/mermail-triage/
 ## Install / run
 
 ```bash
-npm test
+python -m pytest tests/   # 50 deterministic assertions
 npx skills add 488315/mermail-skills   # official core workflows
 ```
 
