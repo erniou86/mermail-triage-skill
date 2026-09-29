@@ -1,0 +1,11 @@
+interface:
+  display_name: "Mermail Email Triage"
+  short_description: "Priority-classify inbox, surface urgent items, and prepare approved replies."
+  default_prompt: "Use $mermail-triage to classify incoming email by priority and prepare safe replies."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mermail"
+      description: "Mermail workspace and mailbox MCP server"
+      transport: "streamable_http"
+      url: "https://console.mermail.app/mcp"
